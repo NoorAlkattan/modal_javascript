@@ -1,0 +1,2 @@
+class SecondPage < ApplicationRecord
+end

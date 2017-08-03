@@ -1,0 +1,27 @@
+ .modal-mask {
+       display: none;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 10000;
+       background-color: #43C6DB;
+       
+      
+   }
+   
+   .modal {
+       display: block;
+       padding: 8px;
+       background: rgba(255, 255, 255, 1);
+       position: absolute;
+       border: 25px solid gray;
+       min-width: 300px;
+       min-height: 100px;
+       max-width: 150px;
+       width: 100%;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
